@@ -9,10 +9,10 @@ El Webhook: Debe enviar mensajes, los primeros 10 mensajes con nùmero pares, lu
 Server: Recibir y validar si es impar o par
 
 Ejemplo 
-Webhook : {"mensaje":"1"}
-Server : "Recibí un nùmero impar"
-Webhook : {"mensaje":"3"}
-Server : "Recibí un nùmero impar"
+* --- Webhook: {"mensaje":"1"}
+* --- Server: "Recibí un nùmero impar"
+* --- Webhook: {"mensaje":"3"} 
+* --- Server: "Recibí un nùmero impar"
 
 OJO: Cuando el server recibe los mensajes utilizar el "Destructuring Assign" para obtener los valores.
 
